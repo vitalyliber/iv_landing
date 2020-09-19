@@ -12,7 +12,7 @@ import {
 import useSWR from "swr";
 import styles from "../../styles/Home.module.css";
 import { getBackup } from "../../api/backups";
-import BirthdayReminderHeader from "../../components/BirthdayReminderHeader";
+import Header from "../../components/BirthdayReminderHeader";
 import Download from "../../components/Download";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       {!data && !error && <Spinner />}
 
-      {data && <BirthdayReminderHeader />}
+      {data && <Header />}
       {error && (
         <div>{error?.response?.data?.error || "Shared list was expired"}</div>
       )}
