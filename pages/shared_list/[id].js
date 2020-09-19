@@ -12,7 +12,7 @@ import {
 import useSWR from "swr";
 import styles from "../../styles/Home.module.css";
 import { getBackup } from "../../api/backups";
-import Header from "../../components/BirthdayReminderHeader";
+import Header from "../../components/Header";
 import Download from "../../components/Download";
 
 export default function Home() {
