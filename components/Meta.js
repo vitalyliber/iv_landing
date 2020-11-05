@@ -10,8 +10,8 @@ const Meta = () => {
       <meta name="Description" content={desc} />
       <link
         rel="shortcut icon"
-        type="image/png"
-        href="https://iv.casply.com/favicon.png"
+        type="image/x-icon"
+        href="https://iv.casply.com/favicon.ico"
       />
       <link
         rel="apple-touch-icon"
