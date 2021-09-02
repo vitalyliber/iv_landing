@@ -19,12 +19,12 @@ const Download = () => {
           src="/ios_download.png"
         />
       </Link>
-      <Link
-        href="https://play.google.com/store/apps/details?id=com.casply.irregular"
-        target="_blank"
-      >
-        <Image width={150} height={45} src="/android_download.png" />
-      </Link>
+//       <Link
+//         href="https://play.google.com/store/apps/details?id=com.casply.irregular"
+//         target="_blank"
+//       >
+//         <Image width={150} height={45} src="/android_download.png" />
+//       </Link>
     </>
   );
 };
